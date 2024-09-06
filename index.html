@@ -1,0 +1,29 @@
+<!--Ejercicio 11: Conversor de Unidades
+Descripción: Crea un conversor de unidades (kilómetros a millas, metros a pies, etc.).
+Requisitos:
+HTML para los campos de entrada.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+</head>
+<body>
+    <h1>Conversor de Unidades</h1>
+    <div>
+        <h2>Kilometros a Millas</h2>
+        <input type="number" id="km" placeholder="Kilometros">
+        <button onclick="convertirKmAMillas()">Convertir a millas</button>
+        <p id="millasReusltado"></p>
+    </div>
+    <div>
+        <h2>Metros a Pies</h2>
+        <input type="number" id="metros" placeholder="Metros">
+        <button onclick="convertirMetrosAPies()">Convertir a pies</button>
+        <p id="piesResultado"></p>
+    </div>
+</body>
+</html>
